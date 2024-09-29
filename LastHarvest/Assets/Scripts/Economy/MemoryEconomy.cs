@@ -2,6 +2,9 @@
 
 namespace Economy
 {
+    /// <summary>
+    /// An in memory implementation of IEconomy.
+    /// </summary>
     public class MemoryEconomy : IEconomy
     {
         public int Wood { get; private set; } = 500;
